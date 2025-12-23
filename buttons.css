@@ -1,0 +1,14 @@
+.bt {
+
+    background-color: white;
+    width: 150px;
+    padding: 10px;
+    border: 1px solid black ;
+    
+}
+.bt:hover{
+
+    background-color:  rgb(33, 214, 72);
+    color: white;
+   
+}
