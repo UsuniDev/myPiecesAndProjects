@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>saga</title>
+
+    <style>
+        @font-face {
+            font-family: 'TimesNewRomanCustom';
+            src: url('TIMES.ttf') format('truetype');
+        } 
+        body {
+            font-family: 'TimesNewRomanCustom', serif;
+        }      
+
+    </style>
+    <link rel="stylesheet" href="anim.css">
+    <link rel="stylesheet" href="buttons.css">
+</head>
+
+
+<body>
+
+    
+
+    <p style="text-align: left; width: 800px; font-size: 24px; padding: 10px;">
+       When I create fan art for major franchises or companies,
+        I don’t call it fan art—I call it a 'saga.' Here,
+         I’ve collected all my sagas so you can browse them comfortably. 
+       Click on an image to go to its folder. <br> <br>
+
+
+        Click here if you want to go back
+        <span style="color: red">>>>>></span>
+            <button class="bt" onclick="window.location.href='index.html'">go back</button> 
+
+
+    </p>
+
+    <hr><br><br><br><br>
+
+    <div class="alingIMG" style="text-align: left; width: 800px; font-size: 24px; padding: 10px;" name="sagas">
+        <img class="anim" id="pokemon"  alt="10" width="100" height="100" onclick="changeWin(pokeDrive)">
+        <img class="anim" id="fnaf"  alt="10" width="100" height="100" onclick="changeWin(fnafDrive)">
+        <img class="anim" id="zelda"  alt="10" width="100" height="100" onclick="changeWin(zeldaDrive)">
+
+
+
+
+
+    </div>
+    
+
+
+
+
+
+    <script src="URLVars.js"></script>
+    <script src="setIMG.js"></script>
+
+</body>
+</html>
