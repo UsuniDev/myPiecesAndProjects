@@ -1,0 +1,26 @@
+.anim{
+    width: 150px;
+    transition: transform 0.3 ease;
+    padding: 10px;
+    border: 3px solid red;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+
+
+
+
+}
+.anim:hover{
+    transform: scale(1,2);
+
+
+}
+.alingIMG{
+
+    display: flex; 
+    flex-direction: row;
+    gap: 10px;
+
+
+}
